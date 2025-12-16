@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.10e6322e.css",
-    "main.js": "/my-website/static/js/main.c26acd64.js",
-    "static/media/image.png": "/my-website/static/media/image.1e17842911770d03a852.png",
-    "static/media/charging.png": "/my-website/static/media/charging.e37162c40420c4d8c006.png",
-    "static/media/minor.png": "/my-website/static/media/minor.0fe4f00167fc5207d8e8.png",
-    "static/media/major.png": "/my-website/static/media/major.abc0911e11015663f76a.png",
-    "static/media/Guptaraj-Shrestha.webp": "/my-website/static/media/Guptaraj-Shrestha.1055cd8dcc1e6b24a33f.webp",
-    "index.html": "/my-website/index.html",
-    "main.10e6322e.css.map": "/my-website/static/css/main.10e6322e.css.map",
-    "main.c26acd64.js.map": "/my-website/static/js/main.c26acd64.js.map"
+    "main.css": "./static/css/main.10e6322e.css",
+    "main.js": "./static/js/main.976eff89.js",
+    "static/media/image.png": "./static/media/image.1e17842911770d03a852.png",
+    "static/media/charging.png": "./static/media/charging.e37162c40420c4d8c006.png",
+    "static/media/minor.png": "./static/media/minor.0fe4f00167fc5207d8e8.png",
+    "static/media/major.png": "./static/media/major.abc0911e11015663f76a.png",
+    "static/media/Guptaraj-Shrestha.webp": "./static/media/Guptaraj-Shrestha.1055cd8dcc1e6b24a33f.webp",
+    "index.html": "./index.html",
+    "main.10e6322e.css.map": "./static/css/main.10e6322e.css.map",
+    "main.976eff89.js.map": "./static/js/main.976eff89.js.map"
   },
   "entrypoints": [
     "static/css/main.10e6322e.css",
-    "static/js/main.c26acd64.js"
+    "static/js/main.976eff89.js"
   ]
 }
