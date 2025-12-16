@@ -1,0 +1,29 @@
+{
+  "name": "John Beckham",
+  "intro": "Hello, I'm",
+  "description": "Crafting beautiful digital experiences with modern technologies. Passionate about clean code, innovative design, and solving complex problems.",
+  "roles": [
+    "Creative Developer",
+    "UI/UX Designer",
+    "Full Stack Engineer",
+    "Problem Solver"
+  ],
+  "socialLinks": [
+    {
+      "type": "github",
+      "url": "https://github.com"
+    },
+    {
+      "type": "linkedin",
+      "url": "https://linkedin.com"
+    },
+    {
+      "type": "email",
+      "url": "mailto:hello@example.com"
+    }
+  ],
+  "cta": {
+    "text": "View My Work",
+    "targetSection": "about"
+  }
+}
