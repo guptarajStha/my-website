@@ -5,6 +5,8 @@ import {
   SiDocker,
   SiHtml5,
   SiJavascript,
+  SiMlb,
+  SiMlflow,
   SiMysql,
   SiPhp,
   SiPython,

@@ -33,19 +33,26 @@ const Hero = () => {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const bgGradient = theme === 'light'
+    ? 'from-gray-50 via-blue-50/20 to-gray-50'
+    : 'from-gray-900 via-blue-900/20 to-gray-900';
+  const textGreyClass = theme === 'light' ? 'text-gray-700' : 'text-gray-300';
+  const textMutedClass = theme === 'light' ? 'text-gray-600' : 'text-gray-400';
+  const socialBgClass = theme === 'light' ? 'bg-gray-200 hover:bg-blue-600' : 'bg-gray-800 hover:bg-blue-600';
+  const chevronClass = theme === 'light' ? 'text-gray-600' : 'text-gray-400';
 
-  const bgGradient =
-    theme === "light"
-      ? "from-gray-50 via-blue-50/20 to-gray-50"
-      : "from-gray-900 via-blue-900/20 to-gray-900";
+  // const bgGradient =
+  //   theme === "light"
+  //     ? "from-gray-50 via-blue-50/20 to-gray-50"
+  //     : "from-gray-900 via-blue-900/20 to-gray-900";
 
-  const textGreyClass = theme === "light" ? "text-gray-700" : "text-gray-300";
-  const textMutedClass = theme === "light" ? "text-gray-900" : "text-gray-400";
-  const socialBgClass =
-    theme === "light"
-      ? "bg-gray-900 hover:bg-blue-600"
-      : "bg-gray-800 hover:bg-blue-600";
-  const chevronClass = theme === "light" ? "text-gray-600" : "text-gray-400";
+  // const textGreyClass = theme === "light" ? "text-gray-700" : "text-gray-300";
+  // const textMutedClass = theme === "light" ? "text-gray-900" : "text-gray-400";
+  // const socialBgClass =
+  //   theme === "light"
+  //     ? "bg-gray-900 hover:bg-blue-600"
+  //     : "bg-gray-800 hover:bg-blue-600";
+  // const chevronClass = theme === "light" ? "text-gray-600" : "text-gray-400";
 
   return (
     <section

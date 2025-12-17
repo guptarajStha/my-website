@@ -7,7 +7,7 @@ export const heroData = {
   description:
     "I build interactive and seamless web experiences while leveraging my backend knowledge in PHP and Python for full-stack solutions.",
 
-  roles: ["Computer Engineer", "Full Stack Developer", "RPA Developer"],
+  roles: ["Computer Engineer", "Software Developer", "RPA Developer"],
   socialLinks: [
     {
       type: "github",

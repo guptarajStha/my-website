@@ -1,12 +1,13 @@
 import { Code2, Palette, Rocket, Users } from 'lucide-react';
-import profileImg from "../images/Guptaraj-Shrestha.webp"
+// import profileImg from "../images/Guptaraj-Shrestha.webp"
+import { getImageUrl } from '../helper/ImageHelper';
 
 
 export const aboutData = {
   profile: {
-    initials: 'JB',
-    image:profileImg,
-    name: 'John Beckham',
+    initials: 'GS',
+    image:'/images/Guptaraj-Shrestha.webp',
+    name: 'Guptaraj Shrestha',
     role: 'Full Stack Developer',
     // description: [
     //   "I'm a passionate developer and designer with over 5 years of experience creating exceptional digital experiences. My journey in tech started with a curiosity for how things work and evolved into a career dedicated to crafting innovative solutions.",
