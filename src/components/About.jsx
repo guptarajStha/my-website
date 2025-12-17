@@ -131,7 +131,9 @@ const About = () => {
               >
                 <img
                   src={profile.image}
-                  alt={profile.name}
+                  alt={`${profile.name} profile photo`}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover
         transition-transform duration-[900ms]
         ease-[cubic-bezier(0.16,1,0.3,1)]

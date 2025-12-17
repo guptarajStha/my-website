@@ -48,7 +48,7 @@ const Navigation = ({ activeSection }) => {
             </div>
 
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-8">
+              <div className="ml-10 flex items-baseline space-x-6">
                 {navItems.map((item) => (
                   <button
                     key={item.id}
@@ -68,14 +68,18 @@ const Navigation = ({ activeSection }) => {
             <div className="flex items-center gap-4">
               <button
                 onClick={toggleTheme}
-                className={`p-2 rounded-lg transition-colors ${
+                className={`relative w-16 h-8 rounded-full transition-all duration-700 ease-in-out transform hover:scale-105 overflow-hidden ${
                   theme === 'light'
-                    ? 'bg-gray-200 text-gray-900 hover:bg-gray-300'
-                    : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
-                }`}
+                    ? 'bg-gradient-to-r from-blue-400 to-purple-500'
+                    : 'bg-gradient-to-r from-gray-700 to-gray-900'
+                } shadow-lg hover:shadow-xl`}
                 aria-label="Toggle theme"
               >
-                {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+                <div className={`absolute top-1 w-6 h-6 bg-white rounded-full shadow-md transition-all duration-700 ease-in-out flex items-center justify-center ${
+                  theme === 'light' ? 'left-1' : 'left-9'
+                }`}>
+                  {theme === 'light' ? <Moon size={16} className="text-gray-700" /> : <Sun size={16} className="text-yellow-500" />}
+                </div>
               </button>
 
               <button

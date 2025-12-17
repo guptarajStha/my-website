@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 
 const name = "Er. Guptaraj Shrestha";
 export const heroData = {
@@ -35,12 +36,12 @@ export const footerData = {
 };
 export const socialMediaData = [
   {
-    icon: <Github size={20} />,
+    icon: <FaGithub size={20} />,
     href: "https://github.com/guptarajStha",
     label: "GitHub",
   },
   {
-    icon: <Linkedin size={20} />,
+    icon: <FaLinkedinIn size={20} />,
     href: "https://www.linkedin.com/in/shrestha-guptaraaz-a813481a6",
     label: "LinkedIn",
   },

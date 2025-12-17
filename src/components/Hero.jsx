@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
-import { Github, Linkedin, Mail, ChevronDown } from "lucide-react";
+import { Mail, ChevronDown } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
 import { heroData } from "../data/heroData";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 
 const iconMap = {
-  github: Github,
-  linkedin: Linkedin,
+  github: FaGithub,
+  linkedin: FaLinkedinIn,
   email: Mail,
 };
 
@@ -38,7 +39,7 @@ const Hero = () => {
     : 'from-gray-900 via-blue-900/20 to-gray-900';
   const textGreyClass = theme === 'light' ? 'text-gray-700' : 'text-gray-300';
   const textMutedClass = theme === 'light' ? 'text-gray-600' : 'text-gray-400';
-  const socialBgClass = theme === 'light' ? 'bg-gray-200 hover:bg-blue-600' : 'bg-gray-800 hover:bg-blue-600';
+  const socialBgClass = theme === 'light' ? 'bg-gray-400 hover:bg-blue-600' : 'bg-gray-800 hover:bg-blue-600';
   const chevronClass = theme === 'light' ? 'text-gray-600' : 'text-gray-400';
 
   // const bgGradient =
