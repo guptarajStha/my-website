@@ -1,4 +1,3 @@
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
 import { footerData, socialMediaData } from "../data/heroData";
 
@@ -12,10 +11,10 @@ const Footer = () => {
       ? "bg-gray-100 border-gray-300"
       : "bg-gray-800 border-gray-700";
   const textMutedClass = theme === "light" ? "text-gray-600" : "text-gray-400";
-  const linkClass =
-    theme === "light"
-      ? "text-gray-700 hover:text-blue-600"
-      : "text-gray-400 hover:text-blue-400";
+  // const linkClass =
+  //   theme === "light"
+  //     ? "text-gray-700 hover:text-blue-600"
+  //     : "text-gray-400 hover:text-blue-400";
   const socialBgClass =
     theme === "light"
       ? "bg-gray-500 hover:bg-blue-600"
