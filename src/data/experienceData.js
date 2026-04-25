@@ -14,7 +14,7 @@ export const experiences = [
     technologies: ["React", "Tailwindcss"],
   },
   {
-    title: "Associate Software Engineer Stack Developer",
+    title: "Associate Software Engineer",
     type: "Full-time",
     jobtype: "Onsite",
     company: "Bent Ray Technologies",
